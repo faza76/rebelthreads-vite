@@ -1,0 +1,57 @@
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  background-color: var(--fg);
+  color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* home - featured work */
+.featured-work {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  overflow: hidden;
+}
+
+.featured-work .featured-titles {
+  position: relative;
+  width: 400vw;
+  height: 100vh;
+  display: flex;
+  will-change: transform;
+}
+
+.featured-work .featured-title-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-work .featured-title-wrapper h1 {
+  text-align: center;
+}
+
+.featured-work .featured-images {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200vw;
+  height: 200vh;
+  transform-style: preserve-3d;
+  perspective: 500px;
+}
+
+.featured-work .featured-img-card {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 2em;
+  overflow: hidden;
+}
