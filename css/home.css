@@ -1,9 +1,9 @@
-.hero {
+/* home - hero */
+.hero,
+.footer {
   position: relative;
   width: 100vw;
   height: 100svh;
-  background-color: var(--fg);
-  color: var(--bg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,17 @@
   width: 100vw;
   height: 100svh;
   overflow: hidden;
+  color: var(--bg);
+  padding: 2em;
+}
+
+.featured-work-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--fg);
+  overflow: hidden;
+  border-radius: 2em;
 }
 
 .featured-work .featured-titles {
@@ -54,4 +65,62 @@
   height: 250px;
   border-radius: 2em;
   overflow: hidden;
+}
+
+/* home - services header */
+.services-header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 2em;
+}
+
+/* home - services */
+.services .service-card {
+  position: relative;
+  min-height: 300px;
+}
+
+.services .service-card-inner {
+  position: relative;
+  will-change: transform;
+  width: calc(100vw - 4em);
+  height: 100%;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  gap: 4em;
+  border-radius: 2em;
+  min-height: 500px;
+}
+
+.services .service-card-content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.services .service-card-img {
+  flex: 1;
+  aspect-ratio: 4/5;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+.services #service-card-1 .service-card-inner {
+  background-color: var(--accent1);
+}
+
+.services #service-card-2 .service-card-inner {
+  background-color: var(--accent2);
+}
+
+.services #service-card-3 .service-card-inner {
+  background-color: var(--accent3);
+}
+
+.services #service-card-4 .service-card-inner {
+  background-color: var(--fg);
+  color: var(--bg);
 }
