@@ -10,9 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     trigger: services[0],
     start: "top 50%",
     endTrigger: services[services.length - 1],
-    end: "top 50%",
-    pin: ".services-header",
-    pinSpacing: false,
+    end: "top 150%",
   });
 
   services.forEach((service, index) => {
