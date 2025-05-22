@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ScrollTrigger.create({
         trigger: service,
         start: "top 45%",
-        endTrigger: ".footer",
+        endTrigger: ".contact-cta",
         end: "top 90%",
         pin: true,
         pinSpacing: false,
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
         scrollTrigger: {
           trigger: service,
           start: "top 45%",
-          endTrigger: ".footer",
+          endTrigger: ".contact-cta",
           end: "top 90%",
           scrub: true,
         },

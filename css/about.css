@@ -128,5 +128,148 @@
 }
 
 .skills-copy {
+  margin: 0 auto;
+  padding: 2em;
+  width: max-content;
   text-align: center;
+  border: 0.2em dashed var(--fg);
+  border-radius: 1em;
+}
+
+/* about - stats */
+.stats {
+  padding: 8em 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.stats-row {
+  display: flex;
+  gap: 2em;
+}
+
+.stats-header {
+  flex: 1;
+}
+
+.stats-item-1 {
+  flex: 1;
+  background-color: var(--accent1);
+}
+
+.stats-item-2 {
+  flex: 3;
+  background-color: var(--accent3);
+}
+
+.stats-item-3 {
+  flex: 2;
+  background-color: var(--fg);
+  color: var(--bg);
+}
+
+.stats-item-1,
+.stats-item-2,
+.stats-item-3 {
+  aspect-ratio: 16/7;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.stats-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* about - contact cta */
+.contact-cta {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button {
+  position: relative;
+  width: 60%;
+  height: 300px;
+  border: 0.75em solid #000;
+  border-radius: 20em;
+  background: linear-gradient(
+    45deg,
+    var(--accent1),
+    var(--accent2),
+    var(--accent3),
+    var(--accent4)
+  );
+  background-size: 400% 400%;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  animation: gradientMove 10s ease-in-out infinite;
+  transition: transform 0.2s ease;
+  -webkit-box-shadow: 10px 10px 0px 5px #000000;
+  box-shadow: 10px 10px 0px 5px #000000;
+}
+
+.contact-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.125) 0px,
+    rgba(0, 0, 0, 0.125) 15px,
+    transparent 15px,
+    transparent 30px
+  );
+  animation: stripeMove 30s linear infinite;
+}
+
+.contact-text-small {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-text-large {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-text-large h1 {
+  font-size: 7rem;
+  font-style: italic;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes stripeMove {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
