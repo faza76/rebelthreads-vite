@@ -1,8 +1,9 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/about.html", "destination": "/about.html" },
-    { "source": "/work.html", "destination": "/work.html" },
-    { "source": "/contact.html", "destination": "/contact.html" }
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/work", "destination": "/work.html" },
+    { "source": "/contact", "destination": "/contact.html" }
   ]
 }
