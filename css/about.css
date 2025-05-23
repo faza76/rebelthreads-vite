@@ -184,7 +184,7 @@
 
 @media (max-width: 1000px) {
   .about-hero {
-    padding: 10em 2em 6em 2em;
+    padding: 8em 2em 4em 2em;
   }
 
   .about-hero .about-hero-header h1 {
@@ -199,6 +199,11 @@
     width: 25%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  .about-hero .about-hero-portrait img {
+    position: absolute;
+    height: 110%;
   }
 
   .about-copy .about-copy-content {
