@@ -105,6 +105,10 @@ footer .explosion-particle-img {
 }
 
 @media (max-width: 1000px) {
+  footer {
+    height: 100svh;
+  }
+
   footer .copyright-info {
     flex-direction: column;
     text-align: center;
@@ -122,6 +126,10 @@ footer .explosion-particle-img {
 
   footer .footer-row .footer-col:nth-child(2),
   footer .footer-row .footer-col:nth-child(4) {
+    display: none;
+  }
+
+  footer .explosion-container {
     display: none;
   }
 }
