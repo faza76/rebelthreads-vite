@@ -84,8 +84,20 @@
 .featured-work .featured-title-wrapper {
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.featured-title-img {
+  position: relative;
+  top: -50px;
+  width: 150px;
+  height: 100px;
+  border: 0.2em solid var(--fg);
+  border-radius: 1em;
+  overflow: hidden;
+  display: none;
 }
 
 .featured-work .featured-title-wrapper h1 {
@@ -233,4 +245,32 @@
 .services #service-card-4 .service-card-inner {
   background-color: var(--fg);
   color: var(--bg);
+}
+
+/* mobile version  */
+@media (max-width: 1000px) {
+  .hero .hero-footer .hero-footer-scroll-down {
+    display: none;
+  }
+
+  .featured-work .featured-title-wrapper h1 {
+    width: 75%;
+  }
+
+  .featured-work .featured-work-footer {
+    justify-content: center;
+  }
+
+  .featured-work .featured-work-footer p:nth-child(1),
+  .featured-work .featured-work-footer p:nth-child(2) {
+    display: none;
+  }
+
+  .featured-work .featured-images {
+    display: none;
+  }
+
+  .featured-title-img {
+    display: block;
+  }
 }

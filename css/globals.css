@@ -165,3 +165,9 @@ p.mn {
     transform: translateX(0%);
   }
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
