@@ -40,15 +40,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const featuredCardPos = [
       { y: 300, x: 1000 },
-      { y: 1500, x: 200 },
-      { y: 1250, x: 1750 },
-      { y: 1500, x: 1250 },
-      { y: 200, x: 1800 },
-      { y: 250, x: 800 },
-      { y: 1100, x: 1750 },
-      { y: 1000, x: 1100 },
-      { y: 1200, x: 1650 },
-      { y: 250, x: 1900 },
+      { y: 1500, x: 100 },
+      { y: 1250, x: 1550 },
+      { y: 1500, x: 1150 },
+      { y: 200, x: 1700 },
+      { y: 250, x: 600 },
+      { y: 1100, x: 1650 },
+      { y: 1000, x: 1000 },
+      { y: 1200, x: 1450 },
+      { y: 250, x: 1700 },
     ];
 
     const featuredTitles = document.querySelector(".featured-titles");
