@@ -81,7 +81,6 @@
   border-radius: 1em;
   overflow: hidden;
   margin-bottom: 1em;
-  border: 0.2em solid var(--fg);
 }
 
 .work-items .row .work-item .work-item-content {
