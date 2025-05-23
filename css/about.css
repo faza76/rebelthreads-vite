@@ -213,6 +213,8 @@
     padding: 0;
     width: 100%;
     text-align: center;
+    border: none;
+    border-radius: 0;
   }
 
   .stats .stats-row {
