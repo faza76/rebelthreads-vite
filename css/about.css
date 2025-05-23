@@ -209,11 +209,18 @@
     display: none;
   }
 
+  .skills .skills-copy {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
   .stats .stats-row {
     flex-direction: column;
   }
 
   .stats .stats-col {
+    width: 100%;
     text-align: center;
     gap: 4em;
   }
