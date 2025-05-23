@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const heroImg = document.querySelector(".hero-img img");
   let currentImageIndex = 1;
   const totalImages = 10;
+  let scrollTriggerInstance = null;
 
   setInterval(() => {
     currentImageIndex =
@@ -14,17 +15,37 @@ document.addEventListener("DOMContentLoaded", () => {
     heroImg.src = `/images/work-items/work-item-${currentImageIndex}.jpg`;
   }, 250);
 
-  ScrollTrigger.create({
-    trigger: ".hero-img-holder",
-    start: "top bottom",
-    end: "top top",
-    onUpdate: (self) => {
-      const progress = self.progress;
-      gsap.set(".hero-img", {
-        y: `${-110 + 110 * progress}%`,
-        scale: 0.25 + 0.75 * progress,
-        rotation: -15 + 15 * progress,
-      });
-    },
+  const initAnimations = () => {
+    if (window.innerWidth <= 1000) {
+      if (scrollTriggerInstance) {
+        scrollTriggerInstance.kill();
+        scrollTriggerInstance = null;
+      }
+      return;
+    }
+
+    if (scrollTriggerInstance) {
+      scrollTriggerInstance.kill();
+    }
+
+    scrollTriggerInstance = ScrollTrigger.create({
+      trigger: ".hero-img-holder",
+      start: "top bottom",
+      end: "top top",
+      onUpdate: (self) => {
+        const progress = self.progress;
+        gsap.set(".hero-img", {
+          y: `${-110 + 110 * progress}%`,
+          scale: 0.25 + 0.75 * progress,
+          rotation: -15 + 15 * progress,
+        });
+      },
+    });
+  };
+
+  initAnimations();
+
+  window.addEventListener("resize", () => {
+    initAnimations();
   });
 });
