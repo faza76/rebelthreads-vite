@@ -108,8 +108,108 @@
   height: 600vh;
 }
 
+/* project - client feedback */
+.project-client-feedback {
+  position: relative;
+  width: 100vw;
+  padding: 8em 2em;
+  background-color: var(--bg);
+}
+
+.project-client-feedback .project-client-feedback-header {
+  text-align: center;
+  margin-bottom: 8em;
+}
+
+.project-client-feedback .project-client-feedback-copy {
+  width: 65%;
+  margin: 2em auto 4em auto;
+}
+
+.project-client-feedback .project-client-feedback-copy p {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.project-client-feedback .project-client-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5em;
+}
+
+.project-client-feedback .project-client-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 1em;
+  overflow: hidden;
+  border: 0.2em solid var(--fg);
+  outline: 0.2em solid var(--accent1);
+}
+
+.project-client-feedback .project-client-bio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+
+/* project - snapshots */
+.project-snapshots {
+  position: relative;
+  width: 100vw;
+  padding: 4em 2em;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.project-snapshots .project-snapshot {
+  aspect-ratio: 16/9;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
 /* project - contact cta & footer */
 .project-page .contact-cta,
 .project-page footer {
   background-color: var(--bg);
+}
+
+@media (max-width: 1000px) {
+  .project-hero .project-hero-footer .project-hero-footer-symbols {
+    display: none;
+  }
+
+  .project-hero .project-hero-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .project-hero .project-hero-footer .project-hero-footer-scroll-down {
+    left: 2em;
+    transform: translateX(0%);
+  }
+
+  .project-hero .project-hero-description {
+    width: 100%;
+  }
+
+  .project-preview .project-preview-wrapper {
+    width: 250vw;
+  }
+
+  .project-client-feedback .project-client-feedback-copy {
+    width: 100%;
+  }
+
+  .project-client-feedback .project-client-feedback-copy p {
+    font-size: 1.5rem;
+  }
+
+  .project-snapshots .project-snapshot {
+    aspect-ratio: 5/7;
+  }
 }
