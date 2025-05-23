@@ -177,13 +177,14 @@ p.mn {
   }
 
   .contact-cta .contact-button {
-    width: 90%;
+    width: 95%;
     height: 250px;
     gap: 1em;
+    border-radius: 2em;
   }
 
   .contact-cta .contact-text-small {
-    width: 50%;
+    width: 75%;
     text-align: center;
   }
 
