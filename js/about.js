@@ -20,6 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     scrollTriggerInstances = [];
 
+    gsap.set([".stats-item-1", ".stats-item-2", ".stats-item-3"], {
+      scale: 0,
+    });
+
     const portraitAnimation = gsap.to(".about-hero-portrait", {
       y: -200,
       rotation: -25,
@@ -91,6 +95,22 @@ document.addEventListener("DOMContentLoaded", () => {
       },
     });
     scrollTriggerInstances.push(tag5Animation.scrollTrigger);
+
+    const statsAnimation = gsap.to(
+      [".stats-item-1", ".stats-item-2", ".stats-item-3"],
+      {
+        scale: 1,
+        duration: 1,
+        stagger: 0.1,
+        ease: "power4.out",
+        scrollTrigger: {
+          trigger: ".stats",
+          start: "top 50%",
+          toggleActions: "play none none none",
+        },
+      }
+    );
+    scrollTriggerInstances.push(statsAnimation.scrollTrigger);
   };
 
   initAnimations();
