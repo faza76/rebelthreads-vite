@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const isContactPage = document.querySelector(".page.contact-page");
+  if (!isContactPage) return;
+
   const container = document.querySelector(".trail-container");
   let isDesktop = window.innerWidth > 1000;
   let animationId = null;

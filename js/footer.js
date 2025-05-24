@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const isContactPage = document.querySelector(".page.contact-page");
+  if (isContactPage) return;
+
   const footer = document.querySelector("footer");
   const explosionContainer = document.querySelector(".explosion-container");
   let hasExploded = false;

@@ -2,6 +2,9 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 document.addEventListener("DOMContentLoaded", () => {
+  const isWorkPage = document.querySelector(".page.work-page");
+  if (!isWorkPage) return;
+
   gsap.registerPlugin(ScrollTrigger);
 
   let scrollTriggerInstances = [];
