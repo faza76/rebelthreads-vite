@@ -89,6 +89,17 @@
   gap: 0.5em;
 }
 
+.work-header-content p,
+.work-header-title h1 {
+  line-height: 1.1;
+}
+
+.work-header-content p > div,
+.work-header-title h1 > div {
+  position: relative;
+  padding: 0 0.25em;
+}
+
 @media (max-width: 1000px) {
   .work-header .work-footer .work-footer-symbols {
     display: none;
