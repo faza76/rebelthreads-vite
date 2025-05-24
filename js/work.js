@@ -10,14 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let scrollTriggerInstances = [];
 
   const initAnimations = () => {
-    if (window.innerWidth <= 1000) {
-      scrollTriggerInstances.forEach((instance) => {
-        if (instance) instance.kill();
-      });
-      scrollTriggerInstances = [];
-      return;
-    }
-
     scrollTriggerInstances.forEach((instance) => {
       if (instance) instance.kill();
     });
