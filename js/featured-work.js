@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
-    const featuredCardPos = [
+    const featuredCardPosSmall = [
       { y: 300, x: 1000 },
       { y: 1500, x: 100 },
       { y: 1250, x: 1750 },
@@ -53,6 +53,22 @@ document.addEventListener("DOMContentLoaded", () => {
       { y: 1200, x: 1450 },
       { y: 250, x: 1700 },
     ];
+
+    const featuredCardPosLarge = [
+      { y: 800, x: 5000 },
+      { y: 2000, x: 3000 },
+      { y: 240, x: 4450 },
+      { y: 1200, x: 3450 },
+      { y: 500, x: 2200 },
+      { y: 750, x: 1100 },
+      { y: 1850, x: 3350 },
+      { y: 2200, x: 1300 },
+      { y: 3000, x: 1950 },
+      { y: 500, x: 4500 },
+    ];
+
+    const featuredCardPos =
+      window.innerWidth >= 1600 ? featuredCardPosLarge : featuredCardPosSmall;
 
     const featuredTitles = document.querySelector(".featured-titles");
     const moveDistance = window.innerWidth * 4;
