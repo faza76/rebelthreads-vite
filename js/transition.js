@@ -3,18 +3,17 @@ import gsap from "gsap";
 document.addEventListener("DOMContentLoaded", () => {
   console.log("DOM loaded");
 
-  revealTransition().then(() => {
-    gsap.set(".block", { visibility: "hidden" });
-  });
+  revealTransition();
 
   function revealTransition() {
     return new Promise((resolve) => {
-      gsap.set(".block", { scaleY: 1 });
-      gsap.to(".block", {
+      gsap.set(".transition-overlay", { scaleY: 1, transformOrigin: "top" });
+
+      gsap.to(".transition-overlay", {
         scaleY: 0,
-        duration: 0.5,
-        stagger: 0.05,
-        ease: "power2.inOut",
+        duration: 0.75,
+        stagger: -0.1,
+        ease: "power3.inOut",
         onComplete: resolve,
       });
     });
@@ -43,12 +42,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function animateTransition() {
     return new Promise((resolve) => {
-      gsap.set(".block", { visibility: "visible", scaleY: 0 });
-      gsap.to(".block", {
+      gsap.set(".transition-overlay", { scaleY: 0, transformOrigin: "bottom" });
+
+      gsap.to(".transition-overlay", {
         scaleY: 1,
-        duration: 0.5,
-        stagger: 0.05,
-        ease: "power2.inOut",
+        duration: 0.75,
+        stagger: 0.1,
+        ease: "power3.inOut",
         onComplete: resolve,
       });
     });
