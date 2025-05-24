@@ -19,14 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 250);
 
   const initAnimations = () => {
-    if (window.innerWidth <= 1000) {
-      if (scrollTriggerInstance) {
-        scrollTriggerInstance.kill();
-        scrollTriggerInstance = null;
-      }
-      return;
-    }
-
     if (scrollTriggerInstance) {
       scrollTriggerInstance.kill();
     }
