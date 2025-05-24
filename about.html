@@ -6,6 +6,7 @@
     <title>About | Otis Valen</title>
     <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="stylesheet" href="/css/globals.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
     <link rel="stylesheet" href="/css/home.css" />
     <link rel="stylesheet" href="/css/work.css" />
     <link rel="stylesheet" href="/css/project.css" />
@@ -15,6 +16,68 @@
   </head>
   <body>
     <div class="page about-page">
+      <!-- nav -->
+      <nav>
+        <div class="logo">
+          <div class="logo-container">
+            <p class="mn"><a href="/">Otis ✦ Valen</a></p>
+          </div>
+        </div>
+        <div class="menu-toggle-btn">
+          <div class="menu-toggle-btn-wrapper">
+            <p class="mn open-label">Menu</p>
+            <p class="mn close-label">Close</p>
+          </div>
+        </div>
+      </nav>
+      <div class="nav-overlay">
+        <div class="nav-items">
+          <div class="nav-item">
+            <p><a href="/">Index</a></p>
+          </div>
+          <div class="nav-item">
+            <p><a href="/work">The Good Stuff</a></p>
+          </div>
+          <div class="nav-item active">
+            <p><a href="/about">Meet Otis</a></p>
+          </div>
+          <div class="nav-item">
+            <p><a href="/contact">Slide In</a></p>
+          </div>
+        </div>
+
+        <div class="nav-footer">
+          <div class="nav-footer-item">
+            <div class="nav-footer-item-header">
+              <p class="mn">Find Me</p>
+            </div>
+            <div class="nav-footer-item-copy">
+              <p class="mn"><a href="#" target="_blank">Instagram</a></p>
+              <p class="mn"><a href="#" target="_blank">LinkedIn</a></p>
+            </div>
+          </div>
+
+          <div class="nav-footer-item">
+            <div class="nav-footer-item-copy">
+              <p class="mn">MWT — May 2025 / Codegrid</p>
+            </div>
+          </div>
+
+          <div class="nav-footer-item">
+            <div class="nav-footer-item-header">
+              <p class="mn">Say Hi</p>
+            </div>
+            <div class="nav-footer-item-copy">
+              <p class="mn">
+                <a href="mailto:hello@otisvalen.com" target="_blank"
+                  >hello@otisvalen.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- about - about hero -->
       <section class="about-hero">
         <div class="about-hero-header">
@@ -202,6 +265,7 @@
       </footer>
     </div>
     <script type="module" src="/js/lenis-scroll.js"></script>
+    <script type="module" src="/js/menu.js"></script>
     <script type="module" src="/js/hero.js"></script>
     <script type="module" src="/js/featured-work.js"></script>
     <script type="module" src="/js/services.js"></script>
