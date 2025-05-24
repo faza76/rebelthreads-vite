@@ -210,6 +210,10 @@
     width: 100%;
   }
 
+  .about-copy .about-copy-content h3 {
+    font-size: 1.5rem;
+  }
+
   .about-copy .tag {
     display: none;
   }
