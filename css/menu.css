@@ -52,8 +52,7 @@ nav .menu-toggle-btn-wrapper {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-/* navbar - overlay */
-
+/* nav - overlay */
 .nav-overlay {
   position: fixed;
   top: 0;
@@ -69,7 +68,7 @@ nav .menu-toggle-btn-wrapper {
 
 .nav-overlay .nav-items {
   position: absolute;
-  top: 45%;
+  top: 47.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -184,7 +183,6 @@ nav .menu-toggle-btn-wrapper {
 
   .nav-overlay .nav-footer-item:nth-child(2) {
     display: none;
-    border: 1px solid red;
   }
 
   .nav-overlay .nav-footer-item:nth-child(3) .nav-footer-item-header {
