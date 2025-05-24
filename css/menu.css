@@ -168,6 +168,10 @@ nav .menu-toggle-btn-wrapper {
 }
 
 @media (max-width: 1000px) {
+  .nav-overlay .nav-items .nav-item p {
+    font-size: 1.5rem;
+  }
+
   .nav-overlay .nav-footer {
     flex-direction: column;
     justify-content: center;

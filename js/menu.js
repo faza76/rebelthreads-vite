@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const navItems = document.querySelectorAll(".nav-item");
   let isMenuOpen = false;
   let isAnimating = false;
+  let scrollY = 0;
 
   menuToggleBtn.addEventListener("click", () => {
     if (isAnimating) {
@@ -20,6 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       navOverlay.style.pointerEvents = "all";
       menuToggleBtn.classList.add("menu-open");
+      scrollY = window.scrollY;
+      document.body.style.position = "fixed";
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.width = "100%";
 
       gsap.to(openLabel, {
         y: "-1rem",
@@ -52,6 +57,10 @@ document.addEventListener("DOMContentLoaded", () => {
       isAnimating = true;
       navOverlay.style.pointerEvents = "none";
       menuToggleBtn.classList.remove("menu-open");
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.width = "";
+      window.scrollTo(0, scrollY);
 
       gsap.to(openLabel, {
         y: "0rem",
