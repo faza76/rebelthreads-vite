@@ -42,16 +42,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const featuredCardPosSmall = [
-      { y: 300, x: 1000 },
+      { y: 100, x: 1000 },
       { y: 1500, x: 100 },
-      { y: 1250, x: 1750 },
+      { y: 1250, x: 1950 },
       { y: 1500, x: 850 },
-      { y: 200, x: 1700 },
+      { y: 200, x: 2100 },
       { y: 250, x: 600 },
       { y: 1100, x: 1650 },
       { y: 1000, x: 800 },
-      { y: 1200, x: 1450 },
-      { y: 250, x: 1700 },
+      { y: 900, x: 2200 },
+      { y: 150, x: 1600 },
     ];
 
     const featuredCardPosLarge = [
