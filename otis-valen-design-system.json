@@ -1,0 +1,449 @@
+{
+  "design_system": {
+    "name": "Otis Valen Design System",
+    "version": "1.0.0",
+    "colors": {
+      "css_variables": {
+        "primary": {
+          "--bg": {
+            "value": "#edf1e8",
+            "name": "Background Primary",
+            "usage": "Main background color",
+            "rgb": "rgb(237, 241, 232)",
+            "hsl": "hsl(76, 25%, 93%)"
+          },
+          "--bg2": {
+            "value": "#d7dbd2",
+            "name": "Background Secondary", 
+            "usage": "Secondary background, menu overlay",
+            "rgb": "rgb(215, 219, 210)",
+            "hsl": "hsl(73, 13%, 84%)"
+          },
+          "--fg": {
+            "value": "#141414",
+            "name": "Foreground",
+            "usage": "Main text color, dark elements",
+            "rgb": "rgb(20, 20, 20)",
+            "hsl": "hsl(0, 0%, 8%)"
+          }
+        },
+        "accents": {
+          "--accent1": {
+            "value": "#ed6a5a",
+            "name": "Coral Red",
+            "usage": "Service card 1, transition overlay 2",
+            "rgb": "rgb(237, 106, 90)",
+            "hsl": "hsl(7, 79%, 64%)"
+          },
+          "--accent2": {
+            "value": "#f4f1bb",
+            "name": "Cream Yellow",
+            "usage": "Service card 2, transition overlay 3",
+            "rgb": "rgb(244, 241, 187)",
+            "hsl": "hsl(57, 73%, 85%)"
+          },
+          "--accent3": {
+            "value": "#9bc1bc",
+            "name": "Sage Green",
+            "usage": "Service card 3, transition overlay 4",
+            "rgb": "rgb(155, 193, 188)",
+            "hsl": "hsl(172, 24%, 68%)"
+          },
+          "--accent4": {
+            "value": "#5d576b",
+            "name": "Purple Gray",
+            "usage": "Service card 4, transition overlay 5",
+            "rgb": "rgb(93, 87, 107)",
+            "hsl": "hsl(258, 10%, 38%)"
+          }
+        }
+      },
+      "utility_colors": {
+        "black": {
+          "value": "#000000",
+          "usage": "Borders, box shadows, pure black accents"
+        },
+        "pure_black": {
+          "value": "#000",
+          "usage": "Contact button borders"
+        }
+      },
+      "gradients": {
+        "contact_button": {
+          "type": "linear-gradient",
+          "angle": "45deg",
+          "colors": [
+            "var(--accent1)",
+            "var(--accent2)", 
+            "var(--accent3)",
+            "var(--accent4)"
+          ],
+          "background_size": "400% 400%",
+          "animation": "gradientMove 10s ease-in-out infinite"
+        },
+        "stripe_pattern": {
+          "type": "repeating-linear-gradient",
+          "angle": "45deg",
+          "pattern": [
+            "rgba(0, 0, 0, 0.125) 0px",
+            "rgba(0, 0, 0, 0.125) 15px",
+            "transparent 15px",
+            "transparent 30px"
+          ]
+        }
+      }
+    },
+    "typography": {
+      "font_families": {
+        "rader": {
+          "name": "PP Rader",
+          "type": "Display/Heading",
+          "usage": "All headings (h1, h2, h3)",
+          "characteristics": "Uppercase, italic, tight line height",
+          "weights": [
+            {
+              "weight": 100,
+              "name": "Hairline",
+              "files": [
+                "/fonts/rader/PPRader-Hairline.ttf",
+                "/fonts/rader/PPRader-HairlineItalic.ttf"
+              ]
+            },
+            {
+              "weight": 300,
+              "name": "Thin",
+              "files": [
+                "/fonts/rader/PPRader-Thin.ttf",
+                "/fonts/rader/PPRader-ThinItalic.ttf"
+              ]
+            },
+            {
+              "weight": 400,
+              "name": "Regular",
+              "files": [
+                "/fonts/rader/PPRader-Regular.ttf",
+                "/fonts/rader/PPRader-Italic.ttf"
+              ]
+            },
+            {
+              "weight": 500,
+              "name": "Medium",
+              "files": [
+                "/fonts/rader/PPRader-Medium.ttf",
+                "/fonts/rader/PPRader-MediumItalic.ttf"
+              ]
+            },
+            {
+              "weight": 700,
+              "name": "Bold",
+              "files": [
+                "/fonts/rader/PPRader-Bold.ttf",
+                "/fonts/rader/PPRader-BoldItalic.ttf"
+              ]
+            }
+          ]
+        },
+        "formula-narrow": {
+          "name": "PP Formula Narrow",
+          "type": "Body Text",
+          "usage": "Main paragraph text (p, p.ss)",
+          "characteristics": "Narrow width, readable",
+          "weights": [
+            {
+              "weight": 400,
+              "name": "Regular",
+              "files": ["/fonts/formula/PPFormula-NarrowRegular.ttf"]
+            },
+            {
+              "weight": 600,
+              "name": "Semibold",
+              "files": ["/fonts/formula/PPFormula-NarrowSemibold.ttf"]
+            },
+            {
+              "weight": 700,
+              "name": "Bold",
+              "files": [
+                "/fonts/formula/PPFormula-NarrowBold.ttf",
+                "/fonts/formula/PPFormula-NarrowBoldItalic.ttf"
+              ]
+            }
+          ]
+        },
+        "supply-mono": {
+          "name": "PP Supply Mono",
+          "type": "Monospace/Meta",
+          "usage": "Small meta text (p.mn), uppercase labels",
+          "characteristics": "Uppercase, monospace, small size",
+          "weights": [
+            {
+              "weight": 200,
+              "name": "Ultralight",
+              "files": ["/fonts/supply-mono/PPSupplyMono-Ultralight.ttf"]
+            },
+            {
+              "weight": 400,
+              "name": "Regular",
+              "files": ["/fonts/supply-mono/PPSupplyMono-Regular.ttf"]
+            },
+            {
+              "weight": 500,
+              "name": "Medium",
+              "files": ["/fonts/supply-mono/PPSupplyMono-Medium.ttf"]
+            },
+            {
+              "weight": 700,
+              "name": "Bold",
+              "files": ["/fonts/supply-mono/PPSupplyMono-Bold.ttf"]
+            }
+          ]
+        },
+        "formula": {
+          "name": "PP Formula",
+          "type": "Extended Text",
+          "usage": "Alternative text styles",
+          "weights": [
+            {
+              "weight": 300,
+              "name": "Light",
+              "files": ["/fonts/formula/PPFormula-Light.ttf"]
+            },
+            {
+              "weight": 400,
+              "name": "Regular",
+              "files": [
+                "/fonts/formula/PPFormula-Regular.ttf",
+                "/fonts/formula/PPFormula-RegularItalic.ttf"
+              ]
+            },
+            {
+              "weight": 500,
+              "name": "Medium",
+              "files": [
+                "/fonts/formula/PPFormula-Medium.ttf",
+                "/fonts/formula/PPFormula-MediumItalic.ttf"
+              ]
+            },
+            {
+              "weight": 800,
+              "name": "Extrabold",
+              "files": [
+                "/fonts/formula/PPFormula-Extrabold.ttf",
+                "/fonts/formula/PPFormula-ExtraboldItalic.ttf"
+              ]
+            }
+          ]
+        },
+        "formula-condensed": {
+          "name": "PP Formula Condensed",
+          "type": "Condensed Text",
+          "usage": "Space-efficient text",
+          "weights": [
+            {
+              "weight": 300,
+              "name": "Light",
+              "files": ["/fonts/formula/PPFormula-CondensedLight.ttf"]
+            },
+            {
+              "weight": 400,
+              "name": "Regular",
+              "files": [
+                "/fonts/formula/PPFormula-CondensedRegular.ttf",
+                "/fonts/formula/PPFormula-CondensedItalic.ttf"
+              ]
+            },
+            {
+              "weight": 900,
+              "name": "Black",
+              "files": ["/fonts/formula/PPFormula-CondensedBlack.ttf"]
+            }
+          ]
+        },
+        "formula-extended": {
+          "name": "PP Formula Extended",
+          "type": "Wide Text",
+          "usage": "Expanded text styles",
+          "weights": [
+            {
+              "weight": 300,
+              "name": "Light",
+              "files": ["/fonts/formula/PPFormula-ExtendedLight.ttf"]
+            },
+            {
+              "weight": 400,
+              "name": "Regular",
+              "files": ["/fonts/formula/PPFormula-ExtendedItalic.ttf"]
+            },
+            {
+              "weight": 500,
+              "name": "Medium",
+              "files": ["/fonts/formula/PPFormula-ExtendedMedium.ttf"]
+            },
+            {
+              "weight": 700,
+              "name": "Bold",
+              "files": ["/fonts/formula/PPFormula-ExtendedBold.ttf"]
+            }
+          ]
+        },
+        "formula-semicondensed": {
+          "name": "PP Formula Semi Condensed",
+          "type": "Semi Condensed Text",
+          "usage": "Moderately compressed text",
+          "weights": [
+            {
+              "weight": 100,
+              "name": "Thin",
+              "files": ["/fonts/formula/PPFormula-SemiCondensedThin.ttf"]
+            },
+            {
+              "weight": 300,
+              "name": "Light",
+              "files": ["/fonts/formula/PPFormula-SemiCondensedLight.ttf"]
+            },
+            {
+              "weight": 400,
+              "name": "Regular",
+              "files": ["/fonts/formula/PPFormula-SemiCondensedItalic.ttf"]
+            },
+            {
+              "weight": 500,
+              "name": "Medium",
+              "files": ["/fonts/formula/PPFormula-SemiCondensedMedium.ttf"]
+            }
+          ]
+        },
+        "formula-semiextended": {
+          "name": "PP Formula Semi Extended",
+          "type": "Semi Extended Text",
+          "usage": "Moderately expanded text",
+          "weights": [
+            {
+              "weight": 700,
+              "name": "Bold",
+              "files": ["/fonts/formula/PPFormula-SemiExtendedBold.ttf"]
+            }
+          ]
+        }
+      },
+      "text_styles": {
+        "heading_large": {
+          "element": "h1",
+          "font_family": "rader",
+          "font_size": "5rem",
+          "font_style": "italic",
+          "text_transform": "uppercase",
+          "line_height": "0.95",
+          "mobile_font_size": "2.5rem"
+        },
+        "heading_medium": {
+          "element": "h2",
+          "font_family": "rader",
+          "font_size": "4rem",
+          "font_style": "italic",
+          "text_transform": "uppercase",
+          "line_height": "0.95"
+        },
+        "heading_small": {
+          "element": "h3",
+          "font_family": "rader",
+          "font_size": "2rem",
+          "font_style": "italic",
+          "text_transform": "uppercase",
+          "line_height": "0.95"
+        },
+        "body_text": {
+          "element": "p, p.ss",
+          "font_family": "formula-narrow",
+          "font_size": "1.25rem",
+          "font_weight": "600",
+          "line_height": "1.125"
+        },
+        "meta_text": {
+          "element": "p.mn",
+          "font_family": "supply-mono",
+          "font_size": "0.875rem",
+          "font_weight": "500",
+          "text_transform": "uppercase",
+          "line_height": "1.125"
+        },
+        "navigation_text": {
+          "element": ".nav-item p",
+          "font_size": "2rem",
+          "user_select": "none"
+        },
+        "contact_cta_large": {
+          "element": ".contact-text-large h1",
+          "font_size": "7rem",
+          "mobile_font_size": "3rem"
+        }
+      }
+    },
+    "spacing": {
+      "border_radius": {
+        "small": "0.4em",
+        "medium": "0.5em",
+        "large": "2em",
+        "extra_large": "20em"
+      },
+      "borders": {
+        "thick": "0.75em",
+        "standard": "1px"
+      }
+    },
+    "shadows": {
+      "contact_button": "10px 10px 0px 5px #000000"
+    },
+    "animations": {
+      "gradient_move": {
+        "name": "gradientMove",
+        "duration": "10s",
+        "timing": "ease-in-out",
+        "iteration": "infinite",
+        "keyframes": {
+          "0%": "background-position: 0% 50%",
+          "50%": "background-position: 100% 50%",
+          "100%": "background-position: 0% 50%"
+        }
+      },
+      "stripe_move": {
+        "name": "stripeMove",
+        "duration": "30s",
+        "timing": "linear",
+        "iteration": "infinite",
+        "keyframes": {
+          "0%": "transform: translateX(-50%)",
+          "100%": "transform: translateX(0%)"
+        }
+      }
+    },
+    "usage_guide": {
+      "color_applications": {
+        "service_cards": {
+          "card_1": "var(--accent1) - Coral Red",
+          "card_2": "var(--accent2) - Cream Yellow", 
+          "card_3": "var(--accent3) - Sage Green",
+          "card_4": "var(--fg) - Dark with light text"
+        },
+        "transitions": {
+          "overlay_1": "var(--fg) - Dark",
+          "overlay_2": "var(--accent1) - Coral Red",
+          "overlay_3": "var(--accent2) - Cream Yellow",
+          "overlay_4": "var(--accent3) - Sage Green",
+          "overlay_5": "var(--accent4) - Purple Gray"
+        },
+        "navigation": {
+          "logo_background": "var(--fg) - Dark",
+          "menu_button": "var(--bg2) - Secondary background",
+          "overlay_background": "var(--bg2) - Secondary background",
+          "active_nav_item": "var(--fg) - Dark background"
+        }
+      },
+      "font_applications": {
+        "headings": "Always use 'rader' family, italic, uppercase",
+        "body_copy": "Use 'formula-narrow' for main content",
+        "meta_info": "Use 'supply-mono' for labels, tags, small info",
+        "special_layouts": "Formula variants for specific design needs"
+      }
+    }
+  }
+} 

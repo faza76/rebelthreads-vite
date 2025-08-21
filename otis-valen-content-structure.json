@@ -1,0 +1,433 @@
+{
+  "website": "Otis Valen Portfolio",
+  "title": "Otis Valen | CG MWT — Codegrid",
+  "brand": {
+    "name": "Otis ✦ Valen",
+    "tagline": "Portfolio Mode: ON",
+    "description": "Digital designer who thrives on color chaos, joyful details, and ideas that make you tilt your head and grin"
+  },
+  "navigation": {
+    "logo": "Otis ✦ Valen",
+    "menu_items": [
+      {
+        "label": "Index",
+        "url": "/",
+        "description": "Home page"
+      },
+      {
+        "label": "The Good Stuff",
+        "url": "/work",
+        "description": "Portfolio page"
+      },
+      {
+        "label": "Meet Otis",
+        "url": "/about",
+        "description": "About page"
+      },
+      {
+        "label": "Slide In",
+        "url": "/contact",
+        "description": "Contact page"
+      }
+    ],
+    "menu_toggle": {
+      "open_label": "Menu",
+      "close_label": "Close"
+    },
+    "nav_footer": {
+      "find_me": {
+        "header": "Find Me",
+        "links": [
+          {
+            "label": "Instagram",
+            "url": "#"
+          },
+          {
+            "label": "LinkedIn",
+            "url": "#"
+          }
+        ]
+      },
+      "say_hi": {
+        "header": "Say Hi",
+        "email": "hello@otisvalen.com"
+      },
+      "credit": "MWT — May 2025 // Codegrid"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Otis Valen | CG MWT — Codegrid",
+      "hero": {
+        "name": {
+          "first": "Otis",
+          "last": "Valen"
+        },
+        "footer": {
+          "credit": "Pixels by Otis / 2025",
+          "mode": "Portfolio Mode: ON"
+        }
+      },
+      "featured_work": {
+        "title": "Work Playground",
+        "projects": [
+          {
+            "title": "Cosmic Deli",
+            "image": "/images/work-items/work-item-1.jpg"
+          },
+          {
+            "title": "Skull Pop 7",
+            "image": "/images/work-items/work-item-2.jpg"
+          },
+          {
+            "title": "Red Dot Mission",
+            "image": "/images/work-items/work-item-3.jpg"
+          },
+          {
+            "title": "Sweetbones",
+            "image": "/images/work-items/work-item-4.jpg"
+          }
+        ],
+        "footer": {
+          "count": "Visual Vault [ 10 ]",
+          "separator": "///////////////////",
+          "cta": "Browse Full Bizarre"
+        }
+      },
+      "services_header": {
+        "tagline": "Your ideas. My toolbox.",
+        "title": [
+          "Pixel wizardry",
+          "served fresh"
+        ],
+        "arrow": "↓"
+      },
+      "services": [
+        {
+          "id": "service-card-1",
+          "title": "Visual DNA",
+          "image": "/images/services/service-1.jpg",
+          "alt": "Experience Design"
+        },
+        {
+          "id": "service-card-2",
+          "title": "Brand Alchemy",
+          "image": "/images/services/service-2.jpg",
+          "alt": "Experience Design"
+        },
+        {
+          "id": "service-card-3",
+          "title": "Feel First Design",
+          "image": "/images/services/service-3.jpg",
+          "alt": "Experience Design"
+        },
+        {
+          "id": "service-card-4",
+          "title": "Human Clicks",
+          "image": "/images/services/service-4.jpg",
+          "alt": "Experience Design"
+        }
+      ],
+      "contact_cta": {
+        "small_text": "Collabs, or cosmic brainstorms welcome",
+        "large_text": "Hit Me Up"
+      }
+    },
+    "about": {
+      "title": "About | Otis Valen | CG MWT — Codegrid",
+      "hero": {
+        "title": [
+          "This is",
+          "Otis Valen"
+        ],
+        "bio": {
+          "main": "I'm a digital designer who thrives on color chaos, joyful details, and ideas that make you tilt your head and grin. My work blends playful thinking with clean execution — whether it's a brand, a website, or a weird little concept that shouldn't work (but totally does). If it moves, clicks, scrolls, or shimmers — I'm into it.",
+          "subtitle": "Inside my head / slightly filtered"
+        }
+      },
+      "about_copy": [
+        {
+          "text": "I design things that click — literally and emotionally. From bold brands to pixel-perfect websites, my work lives in the digital space where color, energy, and clever details come out to play. I'm not here to decorate; I'm here to connect.",
+          "emphasized_words": ["bold", "pixel-perfect", "clever", "connect"]
+        },
+        {
+          "text": "Every project I take on is a sandbox — where ideas get messy, buttons have feelings, and layouts get personality. I like clean design with a wild side, smart systems that don't take themselves too seriously, and interfaces that move like they mean it.",
+          "emphasized_words": ["sandbox", "feelings", "personality", "wild", "seriously"]
+        },
+        {
+          "text": "Otis Valen isn't just a name — it's a creative habit. I've spent the last few years building visual identities, interactive sites, and playful experiences for clients who love good design but aren't afraid to have fun with it. If that sounds like you, let's make cool stuff.",
+          "emphasized_words": ["interactive", "playful", "cool"]
+        }
+      ],
+      "tags": [
+        "Interactive",
+        "Joyful",
+        "Precise",
+        "Curious",
+        "Personality"
+      ],
+      "skills": [
+        "01........................Illustration",
+        "02......................VisualIdentity",
+        "03..........................Typography",
+        "04......................CreativeCoding",
+        "05............................Branding",
+        "06.........................Filmography",
+        "07......................MotionGraphics"
+      ],
+      "stats": {
+        "header": {
+          "title": "I don't love numbers, but they love me",
+          "subtitle": "Some slightly unhinged stats from the Otis-verse"
+        },
+        "items": [
+          {
+            "number": "32",
+            "description": "Design projects that made me shout \"this is the one\" (every time)"
+          },
+          {
+            "number": "100%",
+            "description": "Remote, independent, and allergic to open-plan offices"
+          },
+          {
+            "number": "30+",
+            "description": "Clients who said \"wow\" — or at least made the face"
+          }
+        ]
+      },
+      "contact_cta": {
+        "small_text": "Collabs, or cosmic brainstorms welcome",
+        "large_text": "Hit Me Up"
+      }
+    },
+    "work": {
+      "title": "Work | Otis Valen | CG MWT — Codegrid",
+      "header": {
+        "tagline": "Feast your eyes, friend",
+        "title": [
+          "I'm Kinda Proud Of",
+          "Stuff I Made"
+        ],
+        "arrow": "↓",
+        "footer": {
+          "scroll_text": "Enter the Archive",
+          "tag": "The Goods / 2025"
+        }
+      },
+      "work_items": [
+        {
+          "title": "Cosmic Deli",
+          "category": "Character Design",
+          "image": "/images/work-items/work-item-1.jpg"
+        },
+        {
+          "title": "Skull Pop 7",
+          "category": "Color Exploration",
+          "image": "/images/work-items/work-item-2.jpg"
+        },
+        {
+          "title": "Room 404",
+          "category": "3D Composition",
+          "image": "/images/work-items/work-item-3.jpg"
+        },
+        {
+          "title": "Red Dot Mission",
+          "category": "Narrative Design",
+          "image": "/images/work-items/work-item-4.jpg"
+        },
+        {
+          "title": "Sweetbones",
+          "category": "Editorial Illustration",
+          "image": "/images/work-items/work-item-5.jpg"
+        },
+        {
+          "title": "Carnival Bloom 31",
+          "category": "Pattern Design",
+          "image": "/images/work-items/work-item-6.jpg"
+        },
+        {
+          "title": "Soft Noise",
+          "category": "Typography Play",
+          "image": "/images/work-items/work-item-7.jpg"
+        },
+        {
+          "title": "Cloud Valley Echo",
+          "category": "Creative Direction",
+          "image": "/images/work-items/work-item-8.jpg"
+        },
+        {
+          "title": "Heartbyte",
+          "category": "Logo Concept",
+          "image": "/images/work-items/work-item-9.jpg"
+        },
+        {
+          "title": "Orbit Quilt",
+          "category": "Digital Collage",
+          "image": "/images/work-items/work-item-10.jpg"
+        }
+      ]
+    },
+    "project": {
+      "title": "Project | Otis Valen | CG MWT — Codegrid",
+      "hero": {
+        "title": "Room 404",
+        "tags": [
+          "3D Composition",
+          "Conceptual UI"
+        ],
+        "description": "Room 404 is a surreal interface study—built like a dream, styled like a glitch. Inspired by forgotten log-in screens, hotel lobbies in space, and retro-futurism at large, this project blends 3D visuals with UI elements that feel oddly familiar. It's not functional. It's not broken. It just... exists. Welcome in.",
+        "footer": {
+          "scroll_text": "Scroll Down",
+          "project_number": "Project 0001"
+        }
+      },
+      "client_feedback": {
+        "header": "What They Said After",
+        "testimonial": "\"Otis didn't just deliver a design — they delivered a whole experience. Every detail felt intentional, every color felt like it had a story. We came in with a vague idea and left with a brand that felt like it had its own personality. Also, they're weirdly good at naming buttons.\"",
+        "client": {
+          "name": "Juno Merrick",
+          "title": "Director, WOW Studio",
+          "image": "/images/project/client-portrait.jpg"
+        }
+      },
+      "contact_cta": {
+        "small_text": "Collabs, or cosmic brainstorms welcome",
+        "large_text": "Hit Me Up"
+      }
+    },
+    "contact": {
+      "title": "Contact | Otis Valen | CG MWT — Codegrid",
+      "hero": {
+        "title": "Otis is listening",
+        "description": "Got a wild idea? Need a brand facelift? Or just wanna send a design meme? I'm all ears. Whether it's a proper brief or just a \"hey, let's build something,\" the inbox is open and slightly buzzing.",
+        "contact_info": [
+          {
+            "header": "Project Proposals",
+            "email": "inquiry@otisvalen.com"
+          },
+          {
+            "header": "Just Vibes",
+            "email": "hi@otisvalen.com"
+          }
+        ],
+        "cta": "Drop a Line ↗"
+      }
+    }
+  },
+  "footer": {
+    "title": "Otis Valen",
+    "columns": [
+      {
+        "title": "Quick Jumps",
+        "links": [
+          {
+            "label": "Portfolio",
+            "url": "/work"
+          },
+          {
+            "label": "About",
+            "url": "/about"
+          },
+          {
+            "label": "Contact",
+            "url": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "Side Streets",
+        "links": [
+          "Roll the Showreel",
+          "Weird Shop",
+          "Buy Me a Coffee"
+        ]
+      },
+      {
+        "title": "Social Signals",
+        "links": [
+          {
+            "label": "YouTube",
+            "url": "https://www.youtube.com/@codegrid"
+          },
+          {
+            "label": "Membership",
+            "url": "https://codegrid.gumroad.com/l/codegridpro"
+          },
+          {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/codegridweb/"
+          }
+        ]
+      },
+      {
+        "title": "Alt Dimensions",
+        "links": [
+          "Logo Dump",
+          "Freelance Top 100"
+        ]
+      }
+    ],
+    "copyright": {
+      "date": "MWT - MAY 2025",
+      "separator": "//",
+      "credit": {
+        "text": "Built by",
+        "link": {
+          "label": "Codegrid",
+          "url": "https://www.youtube.com/@codegrid"
+        }
+      }
+    }
+  },
+  "contact_information": {
+    "primary_email": "hello@otisvalen.com",
+    "project_email": "inquiry@otisvalen.com",
+    "casual_email": "hi@otisvalen.com"
+  },
+  "brand_voice": {
+    "tone": "Playful, creative, quirky, confident",
+    "personality_traits": [
+      "Joyful",
+      "Interactive",
+      "Precise",
+      "Curious",
+      "Personality-driven"
+    ],
+    "common_phrases": [
+      "Portfolio Mode: ON",
+      "Color chaos",
+      "Pixel wizardry",
+      "Cosmic brainstorms",
+      "Hit Me Up",
+      "The Good Stuff",
+      "Slide In"
+    ]
+  },
+  "visual_elements": {
+    "symbols": "/images/global/symbols.png",
+    "decorative_elements": [
+      "/images/global/s1.png",
+      "/images/global/s2.png",
+      "/images/global/s3.png",
+      "/images/global/s4.png",
+      "/images/global/s5.png",
+      "/images/global/s6.png",
+      "/images/global/s6-dark.png"
+    ],
+    "portraits": [
+      "/images/services-header/portrait.jpeg",
+      "/images/work-header/work-portrait.jpg"
+    ]
+  },
+  "meta_information": {
+    "site_icon": "/images/global/site-icon.png",
+    "framework": "Vite.js",
+    "fonts": [
+      "PP Formula (Various weights)",
+      "PP Rader (Various weights)",
+      "PP Supply Mono (Various weights)"
+    ],
+    "build_year": "2025",
+    "credit": "Codegrid"
+  }
+} 

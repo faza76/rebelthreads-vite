@@ -1,0 +1,474 @@
+{
+    "website": "REBEL THREADS Portfolio",
+    "title": "REBEL THREADS | Chaos & Community — Where Fashion Rebels",
+    "brand": {
+      "name": "REBEL ✦ THREADS",
+      "tagline": "Chaos Mode: ACTIVATED",
+      "description": "Anti-corporate clothing brand that thrives on creative chaos, authentic rebellion, and pieces that make you feel like the beautifully chaotic original you are"
+    },
+    "navigation": {
+      "logo": "REBEL ✦ THREADS",
+      "menu_items": [
+        {
+          "label": "Home Base",
+          "url": "/",
+          "description": "Home page"
+        },
+        {
+          "label": "The Rebellion",
+          "url": "/collection",
+          "description": "Collection page"
+        },
+        {
+          "label": "Our Story",
+          "url": "/about",
+          "description": "About page"
+        },
+        {
+          "label": "Join the Chaos",
+          "url": "/contact",
+          "description": "Contact page"
+        }
+      ],
+      "menu_toggle": {
+        "open_label": "Menu",
+        "close_label": "Close"
+      },
+      "nav_footer": {
+        "find_us": {
+          "header": "Find the Rebellion",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "#"
+            },
+            {
+              "label": "TikTok",
+              "url": "#"
+            },
+            {
+              "label": "Discord Community",
+              "url": "#"
+            }
+          ]
+        },
+        "say_hi": {
+          "header": "Start a Revolution",
+          "email": "chaos@rebelthreads.com"
+        },
+        "credit": "Built by Rebels // 2025 // Community Powered"
+      }
+    },
+    "pages": {
+      "home": {
+        "title": "REBEL THREADS | Chaos & Community — Where Fashion Rebels",
+        "hero": {
+          "name": {
+            "first": "REBEL",
+            "last": "THREADS"
+          },
+          "footer": {
+            "credit": "Chaos by Community / 2025",
+            "mode": "Rebellion Mode: ACTIVATED"
+          }
+        },
+        "featured_collection": {
+          "title": "Current Chaos Collection",
+          "projects": [
+            {
+              "title": "Misfit Manifesto Tee",
+              "image": "/images/collection/chaos-tee-1.jpg"
+            },
+            {
+              "title": "Overthink Everything Hoodie",
+              "image": "/images/collection/chaos-hoodie-2.jpg"
+            },
+            {
+              "title": "Anti-Perfect Denim",
+              "image": "/images/collection/chaos-denim-3.jpg"
+            },
+            {
+              "title": "Beautifully Broken Jacket",
+              "image": "/images/collection/chaos-jacket-4.jpg"
+            }
+          ],
+          "footer": {
+            "count": "Rebellion Vault [ 42 ]",
+            "separator": "///////////////////",
+            "cta": "Browse Full Chaos"
+          }
+        },
+        "values_header": {
+          "tagline": "Your chaos. Our craft.",
+          "title": [
+            "Anti-corporate vibes",
+            "served authentic"
+          ],
+          "arrow": "↓"
+        },
+        "values": [
+          {
+            "id": "value-card-1",
+            "title": "Authentic Rebellion",
+            "image": "/images/values/value-1.jpg",
+            "alt": "Real rebels, not corporate cosplay"
+          },
+          {
+            "id": "value-card-2",
+            "title": "Community First",
+            "image": "/images/values/value-2.jpg",
+            "alt": "Built by and for the misfits"
+          },
+          {
+            "id": "value-card-3",
+            "title": "Quality That Lasts",
+            "image": "/images/values/value-3.jpg",
+            "alt": "Buy less, wear more philosophy"
+          },
+          {
+            "id": "value-card-4",
+            "title": "Planet Over Profit",
+            "image": "/images/values/value-4.jpg",
+            "alt": "Sustainability without the greenwashing"
+          }
+        ],
+        "contact_cta": {
+          "small_text": "Ready to join the beautiful chaos?",
+          "large_text": "Start Your Rebellion"
+        }
+      },
+      "about": {
+        "title": "Our Story | REBEL THREADS | Chaos & Community",
+        "hero": {
+          "title": [
+            "This is",
+            "REBEL THREADS"
+          ],
+          "bio": {
+            "main": "We're an anti-corporate clothing brand that thrives on creative chaos, authentic rebellion, and community-driven design. Our pieces aren't just clothes — they're statements for the beautifully chaotic originals who refuse to fit into neat little boxes. If it challenges the norm, celebrates the weird, or makes corporate executives uncomfortable — we're into it.",
+            "subtitle": "Inside our rebellion / slightly organized chaos"
+          }
+        },
+        "about_copy": [
+          {
+            "text": "We design clothes that rebel — against fast fashion, corporate bullshit, and the idea that you need to look like everyone else. From statement pieces to everyday chaos-wear, our collection lives in the space where authenticity meets quality, and conformity goes to die.",
+            "emphasized_words": ["rebel", "corporate bullshit", "authenticity", "quality", "conformity"]
+          },
+          {
+            "text": "Every piece we create is a middle finger to mass production — where community feedback shapes designs, sustainability isn't just marketing speak, and clothes have stories worth telling. We like quality with an attitude, honest messaging that doesn't sugarcoat reality, and pieces that move like they own the place.",
+            "emphasized_words": ["community", "sustainability", "attitude", "honest", "reality"]
+          },
+          {
+            "text": "REBEL THREADS isn't just a brand name — it's a way of thinking. We've spent years building a community of creative misfits, sustainable fashion advocates, and people who believe clothes should reflect personality, not conformity. If that sounds like your vibe, welcome to the beautiful chaos.",
+            "emphasized_words": ["community", "misfits", "personality", "conformity", "chaos"]
+          }
+        ],
+        "tags": [
+          "Authentic",
+          "Rebellious",
+          "Sustainable",
+          "Community-Driven",
+          "Anti-Corporate"
+        ],
+        "values": [
+          "01....................Authentic Rebellion",
+          "02......................Community First",
+          "03........................Sustainability",
+          "04......................Quality Over Hype",
+          "05..........................Anti-Perfect",
+          "06.........................Transparency",
+          "07......................Creative Chaos"
+        ],
+        "stats": {
+          "header": {
+            "title": "We don't love corporate metrics, but here's our chaos",
+            "subtitle": "Some beautifully imperfect numbers from the rebellion"
+          },
+          "items": [
+            {
+              "number": "100%",
+              "description": "Community-driven designs that made us say 'this is beautifully chaotic'"
+            },
+            {
+              "number": "0%",
+              "description": "Corporate bullshit, fake authenticity, or greenwashing allowed"
+            },
+            {
+              "number": "∞",
+              "description": "Rebels who found their tribe and said 'finally, clothes that get it'"
+            }
+          ]
+        },
+        "contact_cta": {
+          "small_text": "Ready to join the beautiful chaos?",
+          "large_text": "Start Your Rebellion"
+        }
+      },
+      "collection": {
+        "title": "Collection | REBEL THREADS | Chaos & Community",
+        "header": {
+          "tagline": "Feast your rebellious eyes",
+          "title": [
+            "Chaos We're Proud Of",
+            "The Beautiful Rebellion"
+          ],
+          "arrow": "↓",
+          "footer": {
+            "scroll_text": "Enter the Chaos Vault",
+            "tag": "The Rebellion / 2025"
+          }
+        },
+        "collection_items": [
+          {
+            "title": "Misfit Manifesto Tee",
+            "category": "Statement Wear",
+            "image": "/images/collection/chaos-tee-1.jpg"
+          },
+          {
+            "title": "Overthink Everything Hoodie",
+            "category": "Comfort Rebellion",
+            "image": "/images/collection/chaos-hoodie-2.jpg"
+          },
+          {
+            "title": "Anti-Perfect Denim",
+            "category": "Beautifully Broken",
+            "image": "/images/collection/chaos-denim-3.jpg"
+          },
+          {
+            "title": "Corporate Nightmare Jacket",
+            "category": "Professional Rebellion",
+            "image": "/images/collection/chaos-jacket-4.jpg"
+          },
+          {
+            "title": "Authenticity Alert Crop",
+            "category": "Truth Telling",
+            "image": "/images/collection/chaos-crop-5.jpg"
+          },
+          {
+            "title": "Chaos Theory Shorts",
+            "category": "Mathematical Rebellion",
+            "image": "/images/collection/chaos-shorts-6.jpg"
+          },
+          {
+            "title": "Beautifully Broken Dress",
+            "category": "Elegant Chaos",
+            "image": "/images/collection/chaos-dress-7.jpg"
+          },
+          {
+            "title": "Question Everything Tank",
+            "category": "Critical Thinking Wear",
+            "image": "/images/collection/chaos-tank-8.jpg"
+          },
+          {
+            "title": "Sustainable Rebel Sweatshirt",
+            "category": "Eco-Chaos",
+            "image": "/images/collection/chaos-sweat-9.jpg"
+          },
+          {
+            "title": "Community Over Corporate Tote",
+            "category": "Utility Rebellion",
+            "image": "/images/collection/chaos-tote-10.jpg"
+          }
+        ]
+      },
+      "product": {
+        "title": "Product | REBEL THREADS | Chaos & Community",
+        "hero": {
+          "title": "Anti-Perfect Denim",
+          "tags": [
+            "Beautifully Broken",
+            "Sustainable Rebellion"
+          ],
+          "description": "Anti-Perfect Denim celebrates the beauty in imperfection—crafted with intention, styled with chaos. Inspired by punk authenticity, sustainable fashion rebels, and the idea that perfect is overrated, this piece blends quality construction with deliberately imperfect details. It's not pristine. It's not corporate. It just... exists in beautiful chaos. Wear your rebellion.",
+          "footer": {
+            "scroll_text": "Scroll for Chaos",
+            "product_number": "Rebellion 0001"
+          }
+        },
+        "community_feedback": {
+          "header": "What the Rebels Said",
+          "testimonial": "\"REBEL THREADS didn't just deliver clothes — they delivered a whole identity. Every piece felt intentional, every detail felt like it had attitude. We came in feeling lost in fast fashion and left with a wardrobe that felt like it understood us. Also, they're weirdly good at making corporate executives uncomfortable.\"",
+          "customer": {
+            "name": "Alex Rivera",
+            "title": "Creative Rebel, Digital Nomad",
+            "image": "/images/community/rebel-portrait.jpg"
+          }
+        },
+        "contact_cta": {
+          "small_text": "Ready to join the beautiful chaos?",
+          "large_text": "Start Your Rebellion"
+        }
+      },
+      "contact": {
+        "title": "Join Us | REBEL THREADS | Chaos & Community",
+        "hero": {
+          "title": "The rebellion is listening",
+          "description": "Got a chaotic idea? Need to rebel against your wardrobe? Or just wanna share some anti-corporate memes? We're all ears. Whether it's custom designs, community feedback, or just a \"hey, let's create beautiful chaos together,\" the rebellion inbox is open and slightly buzzing with creative energy.",
+          "contact_info": [
+            {
+              "header": "Join the Rebellion",
+              "email": "chaos@rebelthreads.com"
+            },
+            {
+              "header": "Community Vibes",
+              "email": "hello@rebelthreads.com"
+            },
+            {
+              "header": "Custom Chaos",
+              "email": "create@rebelthreads.com"
+            }
+          ],
+          "cta": "Start the Revolution ↗"
+        }
+      }
+    },
+    "footer": {
+      "title": "REBEL THREADS",
+      "columns": [
+        {
+          "title": "The Rebellion",
+          "links": [
+            {
+              "label": "Collection",
+              "url": "/collection"
+            },
+            {
+              "label": "Our Story",
+              "url": "/about"
+            },
+            {
+              "label": "Join Us",
+              "url": "/contact"
+            }
+          ]
+        },
+        {
+          "title": "Chaos Central",
+          "links": [
+            "Community Discord",
+            "Sustainability Reports",
+            "Rebel Rewards",
+            "Customization Hub"
+          ]
+        },
+        {
+          "title": "Find the Rebellion",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "#"
+            },
+            {
+              "label": "TikTok",
+              "url": "#"
+            },
+            {
+              "label": "Discord",
+              "url": "#"
+            },
+            {
+              "label": "YouTube",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "title": "Underground Intel",
+          "links": [
+            "Pop-up Locations",
+            "Artist Collabs",
+            "Repair Guides",
+            "Community Stories"
+          ]
+        }
+      ],
+      "copyright": {
+        "date": "REBELLION - 2025",
+        "separator": "//",
+        "credit": {
+          "text": "Built by rebels, for rebels",
+          "link": {
+            "label": "Community Powered",
+            "url": "#"
+          }
+        }
+      }
+    },
+    "contact_information": {
+      "primary_email": "chaos@rebelthreads.com",
+      "community_email": "hello@rebelthreads.com",
+      "custom_email": "create@rebelthreads.com",
+      "sustainability_email": "planet@rebelthreads.com"
+    },
+    "brand_voice": {
+      "tone": "Rebellious, authentic, chaotic, community-driven, anti-corporate",
+      "personality_traits": [
+        "Authentically Rebellious",
+        "Community-Obsessed", 
+        "Sustainably Chaotic",
+        "Anti-Perfect",
+        "Beautifully Broken"
+      ],
+      "common_phrases": [
+        "Chaos Mode: ACTIVATED",
+        "Beautiful chaos",
+        "Anti-corporate vibes",
+        "Community over corporate",
+        "Start Your Rebellion",
+        "The Beautiful Rebellion",
+        "Join the Chaos",
+        "Beautifully chaotic original"
+      ]
+    },
+    "visual_elements": {
+      "symbols": "/images/global/rebel-symbols.png",
+      "decorative_elements": [
+        "/images/global/chaos-1.png",
+        "/images/global/chaos-2.png", 
+        "/images/global/chaos-3.png",
+        "/images/global/chaos-4.png",
+        "/images/global/chaos-5.png",
+        "/images/global/chaos-6.png",
+        "/images/global/chaos-6-dark.png"
+      ],
+      "community_portraits": [
+        "/images/about/rebel-community.jpg",
+        "/images/collection/rebel-collective.jpg"
+      ]
+    },
+    "brand_pillars": {
+      "authenticity": {
+        "title": "Authentic Rebellion",
+        "description": "No corporate cosplay, just real clothes for real rebels"
+      },
+      "community": {
+        "title": "Community Over Corporate", 
+        "description": "Built by rebels, for rebels, with rebels"
+      },
+      "sustainability": {
+        "title": "Planet Over Profit",
+        "description": "Buy less, wear more, question everything"
+      },
+      "quality": {
+        "title": "Beautifully Imperfect",
+        "description": "Quality that celebrates chaos over corporate perfection"
+      }
+    },
+    "community_programs": {
+      "customization_hub": "DIY guides and community-created modifications",
+      "rebel_rewards": "Loyalty program that rewards authenticity over purchases",
+      "take_back_program": "Worn-out pieces recycled into new rebellion",
+      "artist_collabs": "Local creatives and community partnerships"
+    },
+    "meta_information": {
+      "site_icon": "/images/global/rebel-icon.png",
+      "framework": "Community.js",
+      "fonts": [
+        "Rebellion Sans (Various weights)",
+        "Chaos Serif (Various weights)", 
+        "Anti-Corporate Mono (Various weights)"
+      ],
+      "build_year": "2025",
+      "credit": "Community Powered Rebellion"
+    }
+  }

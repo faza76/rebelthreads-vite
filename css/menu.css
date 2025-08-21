@@ -4,7 +4,7 @@ nav {
   top: 0;
   left: 0;
   width: 100vw;
-  padding: 2em;
+  padding: 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,7 @@ nav .menu-toggle-btn-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 0.875rem;
+  height: 1.25rem;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
@@ -67,35 +67,95 @@ nav .menu-toggle-btn-wrapper {
 }
 
 .nav-overlay .nav-items {
-  position: absolute;
-  top: 47.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: relative;
+  top: 25%;
+  display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1em;
+  /* justify-content: center; */
+  align-items: flex-start;
+  height: 200vh;
 }
+
 
 .nav-overlay .nav-items .nav-item {
   position: relative;
   transform: translateY(100%);
   will-change: transform;
-  opacity: 0;
-  border-radius: 0.5em;
-  background-color: var(--bg);
+  opacity: 1;
+  width: 100%;
+  /* text-align: center; */
+  /* padding: 0.5em 0.5em 0.3em 0.5em; */
+  /* border-radius: 0.5em; */
+  background-color: var(--bg2);
+}
+
+.nav-overlay .nav-items .nav-item span {
+  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--fg);
+    color: var(--bg);
+    
+    clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+    transform-origin: center;
+    transition: all cubic-bezier(.1,.5,.5,1) 0.4s;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 0.5em; */
+  
+}
+
+.nav-overlay .nav-items .nav-item p:hover > span {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.nav-overlay .nav-items .nav-item a {
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
 }
 
 .nav-overlay .nav-items .nav-item p {
-  font-size: 2rem;
-  user-select: none;
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: -.01em;
+  line-height: 100%;
+  margin: 0;
+  
+  width: 100%;
+  height: 18vh;
+  color: var(--fg);
+  background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 0%;
+  transition: background-size cubic-bezier(.1,.5,.5,1) 0.5s;
+  
+
+  border-bottom: 1px solid #2F2B28;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .nav-overlay .nav-items .nav-item.active {
   background-color: var(--fg);
+  width: 100%;
+  /* text-align: center; */
 }
 
-.nav-overlay .nav-items .nav-item.active p a {
+.nav-overlay .nav-items .nav-item.active p {
   color: var(--bg);
 }
 
@@ -125,7 +185,7 @@ nav .menu-toggle-btn-wrapper {
 
 .nav-overlay .nav-footer .nav-footer-item p {
   font-size: 0.75rem;
-  user-select: none;
+  /* user-select: none; */
 }
 
 .nav-overlay .nav-footer .nav-footer-item .nav-footer-item-header {
@@ -168,7 +228,7 @@ nav .menu-toggle-btn-wrapper {
 
 @media (max-width: 1000px) {
   .nav-overlay .nav-items .nav-item p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .nav-overlay .nav-footer {
