@@ -1,0 +1,42 @@
+name: Deploy website to Hostinger
+on:
+  # workflow_dispatch: # Allow manual run from Github
+  push:
+    branches: [ main ] 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # Set the same versions as your own to ensure your project
+      # build without issues.
+      node-version: 20
+      pnpm-version: 10
+    steps:
+      - name: 🗂️ Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🔨 Install and setup pnpm ${{ env.pnpm-version }}
+        uses: pnpm/action-setup@v2 
+        with:
+          version: ${{ env.pnpm-version }}
+      - name: 🔧 Install and setup Node.js ${{ env.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.node-version }}
+          cache: 'pnpm'
+
+      - name: 🛠️ Install dependencies
+        run: pnpm install
+
+      - name: 🛠️ Build application 
+        run: pnpm run build
+
+      - name: 📂 Sync files with FTP server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: /  # Root of the restricted FTP account
+          dangerous-clean-slate: true
